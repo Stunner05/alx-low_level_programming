@@ -4,7 +4,7 @@
  * Description:  a function that prints the alphabet.
  * Return: 0
  */
-int main(void);
+int main(void)
 {
 	print_alphabet(char c);
 
