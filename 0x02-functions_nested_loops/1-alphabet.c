@@ -4,9 +4,9 @@
  * Description:  a function that prints the alphabet.
  * Return: 0
  */
-void print_alphabet(void);
+int main(void);
 {
-	char c;
+	print_alphabet(char c);
 
 	for (c = 'a'; c <= 'z'; c++)
 		_putchar('c');
