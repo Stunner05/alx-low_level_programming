@@ -4,6 +4,7 @@
  * @n: pass in an integer
  *
  * Description: a function that prints the last digit of a number
+ * Return: 0 or 1
  */
 
 int print_last_digit(int n)
