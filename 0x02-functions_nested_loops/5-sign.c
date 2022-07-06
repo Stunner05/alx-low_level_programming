@@ -1,9 +1,11 @@
 #include "main.h"
 /**
- * main
+ * print_sign - Entry point
+ * @n: passes in an argument
  * Description: a function that prints the sign of a number
- * Return 0
+ * Return:0
  */
+
 int print_sign(int n)
 {
 	if (n > 0)
