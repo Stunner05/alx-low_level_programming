@@ -4,12 +4,13 @@
  * Description: a function that prints 10 times the numbers
  * Return: 0 success
  */
+
 void more_numbers(void)
 {
 	char n, c;
 	int i = 0;
 
-	while(i <= 10)
+	while (i <= 10)
 	{
 		for (n = 0; n <= 14; n++)
 		{
@@ -22,7 +23,7 @@ void more_numbers(void)
 
 			_putchar('0' + c);
 		}
-		
+
 		_putchar('\n')
 			i++;
 	}
