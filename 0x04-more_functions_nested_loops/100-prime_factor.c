@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <math.h>
 /**
- * main - prime numbers
- *
+ * main - Entry point
+ * Description: a program that finds and prints the largest prime factor
  * Return: Always 0.
  */
+
 int main(void)
 {
 	unsigned int long n = 612852475143, a = (int) sqrt(n);
