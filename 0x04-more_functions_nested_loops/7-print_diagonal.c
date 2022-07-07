@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main - check the code for Holberton School students.
- * 
+ * print_diagonal - a function that draws a diagonal line on the terminal.
+ * @n: passess in an argument
  * Return: Always 0.
  */
 void print_diagonal(int n)
