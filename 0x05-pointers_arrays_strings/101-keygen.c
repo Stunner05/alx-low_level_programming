@@ -17,7 +17,7 @@ int main(void)
 	while (v < 2772)
 	{
 		r = rand() % 128;
-		if ((s + r) > 2772)
+		if ((v + r) > 2772)
 			break;
 		v = v + r;
 		printf("%c", r);
