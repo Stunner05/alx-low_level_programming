@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strcat- concatenates n bytes of two strings
+ * _strcat - concatenates n bytes of two strings
  * @dest: pointer to be returned
  * @src: pointer source
  * Return: void
