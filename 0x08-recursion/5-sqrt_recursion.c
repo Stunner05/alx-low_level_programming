@@ -14,7 +14,7 @@ int _sqrt_recursion(int n)
  * square_root - to find square root
  * @n: para 1
  * @i: para 2
- * return: integer
+ * Return: success
  */
 int square_root(int n, int i)
 {
