@@ -5,7 +5,7 @@
  * @str: string given
  * Return: success
  */
-char _strdup(char *str)
+char *_strdup(char *str)
 {
 	int i = 1, j = 0;
 
