@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - a program that prints all arguments it receives.
  * @argc: arguments number
@@ -12,6 +13,7 @@ int main(int argc, char *argv[])
 	if (argc != 3)
 	{
 		printf("%s\n", "Error");
+		return (1);
 	}
 	num1 = atoi(argv[1]);
 	num2 = atoi(argv[2]);
