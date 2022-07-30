@@ -8,14 +8,14 @@
  * Return: string
  */
 
-char *string_nconcat(char *s1, char *s2, unsigned int n);
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	unsigned int len = n, index;
 	char *sum;
 
 	if (s == NULL)
 	{
-		s1 = "
+		s1 = ""
 	}
 	if (s2 == NULL)
 	{
@@ -23,7 +23,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n);
 	}
 	for ( index = 0; s1[index]; index++)
 	{
-		len++
+		len++;
 	}
 	sum = (char *)malloc(sizeof(char) * len + 1);
 	if (sum == NULL)
