@@ -5,6 +5,7 @@
  * @b: parameter to be assigned
  * Return: pointer or NULL
  */
+
 void *malloc_checked(unsigned int b)
 {
 	int *p = malloc(b);
