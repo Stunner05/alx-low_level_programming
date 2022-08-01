@@ -1,7 +1,7 @@
 #include "main.h"
 
  /**
-  * free_grid - removing memory allocated
+  * free_grid -> removing memory allocated.
   * @grid: grid to be free
   * @height: parameter for height
   * Return: 0
