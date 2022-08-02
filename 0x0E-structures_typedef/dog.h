@@ -8,8 +8,8 @@
  */
 typedef struct dog {
 	char *name;
-	float *age;
+	float age;
 	char *owner;
-} dog;
+} dog_p;
 
 #endif
