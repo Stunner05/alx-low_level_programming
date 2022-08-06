@@ -6,10 +6,12 @@
  * @age: floa parameter
  * @owner: character parameter 2
  */
-typedef struct dog {
+typedef struct dog{
 	char *name;
 	float age;
 	char *owner;
 } dog_p;
+
+void init_dog(struct dog *d, char *name, float age, char *owner);
 
 #endif
