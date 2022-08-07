@@ -6,6 +6,7 @@
  * @name: string for name
  * @age: integer for age
  * @owner: string for owners
+ * Return: success
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
