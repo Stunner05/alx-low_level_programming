@@ -9,4 +9,5 @@
 int main(void)
 {
 	printf("name of File is: %s\n", __FILE__);
+	return (0);
 }
